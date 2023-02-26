@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- this form will send get request and postServlet url pattern and it will gets redirected to class having that annotation url pattern and call method requested-->
+	<!-- check java -- postMethod -- Postservlet -->
+	<table>
+
+		<form method="post" action="postServlet">
+			<tr>
+				<th><label for="name">Name</label></th>
+				<td><input type="text" name="name" id="name"></td>
+			</tr>
+
+			<tr>
+				<th><label for="msg">Message</label></th>
+				<td><input type="text" name="msg" id="msg"></td>
+			</tr>
+
+			<tr>
+				<td>check box for color</td>
+				<td><input type="checkbox" value="red" name="color">
+					red <input type="checkbox" value="blue" name="color"> blue
+					<input type="checkbox" value="black" name="color"> black <input
+					type="checkbox" value="violet" name="color"> violet</td>
+
+			</tr>
+
+
+			<tr>
+				<td><button type="submit">submit</button></td>
+			</tr>
+
+		</form>
+	</table>
+
+</body>
+</html>
